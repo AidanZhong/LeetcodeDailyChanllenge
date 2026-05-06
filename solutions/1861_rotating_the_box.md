@@ -1,7 +1,7 @@
 # 1861. Rotating the Box
 
 - **Difficulty:** Medium
-- **Topic:** Two pointers
+- **Topic:** Matrix
 
 ## Approach
 

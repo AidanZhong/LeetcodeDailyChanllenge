@@ -1,5 +1,5 @@
 # Problem: Rotating the Box
-# Topic: Two pointers
+# Topic: Matrix
 # Difficulty: Medium
 
 '''
