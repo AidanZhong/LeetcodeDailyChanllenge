@@ -1,5 +1,5 @@
 # Problem: Jump Game IX
-# Topic: Dynamic Programming
+# Topic: DSU
 # Difficulty: Medium
 
 '''

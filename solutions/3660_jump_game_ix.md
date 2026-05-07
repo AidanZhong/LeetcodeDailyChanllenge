@@ -1,7 +1,7 @@
 # 3660. Jump Game IX
 
 - **Difficulty:** Medium
-- **Topic:** Dynamic Programming
+- **Topic:** DSU
 
 ## Approach
 
