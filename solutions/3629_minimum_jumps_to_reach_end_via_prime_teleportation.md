@@ -5,13 +5,19 @@
 
 ## Approach
 
-This is a shortest-path problem on an implicit graph where each array index is a node. From any index you can reach its two adjacent neighbors, or — if its value is prime `p` — teleport to any index whose value is divisible by `p`.
+The problem is a graph traversal problem. Each index of array is a node. You start from the first index to move to the
+last one. And you can move to any index whose value is divisible by the prime value at the current index, or an adjacent index.
 
-**Why naive BFS is O(n²):** For every prime-valued node dequeued, scanning all `n` elements to find teleportation targets costs O(n) per node, giving O(n²) overall.
+So we can use BFS to find the shortest path. But during the BFS, we need to find the accessible nodes efficiently.
+There are 2 adjacent nodes for each node. And if the node's value is a prime number, we need to find the "Prime teleportation"
+positions.
+If we use brute force, its time complexity is O(n²) which will exceed the time limit.
 
-**Key insight — invert the grouping:** Instead of "for each prime, scan all nums", precompute a `teleportation` map by doing the reverse: for each index `j`, factorize `nums[j]` and register `j` under each of its prime factors. Factorization is done efficiently using a **Smallest Prime Factor (SPF) sieve**, where `spf[x]` stores the smallest prime that divides `x`. Dividing out each prime with the inner `while x % prime == 0` loop ensures every prime factor is found in O(log MAX) per number.
-
-During BFS, when standing on a prime `p`, look up `teleportation[p]` directly instead of scanning the array. After consuming the group, **delete** it from the map — BFS guarantees the first visit is already the shortest, so this group will never need to be revisited.
+So we need a dictionary (i.e., a map from prime → set of indices) to store the accessible nodes for each prime number. And once the "Teleportation"
+is visited, we need to remove the "Teleportation" from the dictionary. (Since if BFS visits the node again, the new step
+will be no less than the previous visit.) The approach is: while traversing the array, we need to factorize each number and
+put it into the prime teleportation dictionary using SPF (Smallest Prime Factor). SPF allows factorizing each number in O(log M)
+by repeatedly dividing by `spf[x]` until `x` reaches 1, instead of O(√M) trial division.
 
 ## Complexity
 
