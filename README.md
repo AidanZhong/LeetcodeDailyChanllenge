@@ -11,3 +11,4 @@ This repo tracks daily LeetCode problem solutions with explanations.
 | 3629 | Minimum Jumps to Reach End via Prime Teleportation | Medium | BFS, SPF | [Code](code/3629_minimum_jumps_to_reach_end_via_prime_teleportation.py) | [Solution](solutions/3629_minimum_jumps_to_reach_end_via_prime_teleportation.md) |
 | 1914 | Cyclically Rotating a Grid | Medium | Matrix | [Code](code/1914_cyclically_rotating_a_grid.py) | [Solution](solutions/1914_cyclically_rotating_a_grid.md) |
 | 2770 | Maximum Number of Jumps to Reach the Last Index | Medium | Dynamic Programming | [Code](code/2770_maximum_number_of_jumps_to_reach_the_last_index.py) | [Solution](solutions/2770_maximum_number_of_jumps_to_reach_the_last_index.md) |
+| 2553 | Seperate the Digits in an Array | Easy | Array | [Code](code/2553_seperate_the_digits_in_an_array.py) | [Solution](solutions/2553_seperate_the_digits_in_an_array.md) |
