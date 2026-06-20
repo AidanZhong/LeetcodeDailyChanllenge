@@ -2,6 +2,29 @@
 
 This repo tracks daily LeetCode problem solutions with explanations.
 
+## Scripts
+
+### Add a new problem
+
+```bash
+python add_problem.py <problem_number> "<problem_name>" "<topic>" "<difficulty>"
+```
+
+**Example:**
+```bash
+python add_problem.py 1234 "Two Sum" "Hash Map" "Easy"
+```
+
+Creates the code stub, solution template, updates the README table, and commits all three files automatically.
+
+### Generate a LinkedIn post
+
+```bash
+python generate_post.py <problem_number>
+```
+
+Generates a LinkedIn post from the solution file and saves it to `post_<problem_number>.txt`.
+
 ## Table of Contents
 
 | Problem Number | Problem | Difficulty | Topic  | Code | Solution |
@@ -13,3 +36,4 @@ This repo tracks daily LeetCode problem solutions with explanations.
 | 2770 | Maximum Number of Jumps to Reach the Last Index | Medium | Dynamic Programming | [Code](code/2770_maximum_number_of_jumps_to_reach_the_last_index.py) | [Solution](solutions/2770_maximum_number_of_jumps_to_reach_the_last_index.md) |
 | 2553 | Seperate the Digits in an Array | Easy | Array | [Code](code/2553_seperate_the_digits_in_an_array.py) | [Solution](solutions/2553_seperate_the_digits_in_an_array.md) |
 | 1665 | Minimum Initial Energy to Finish Tasks | Hard | Greedy | [Code](code/1665_minimum_initial_energy_to_finish_tasks.py) | [Solution](solutions/1665_minimum_initial_energy_to_finish_tasks.md) |
+| 1840 | maximum building height | hard | math | [Code](code/1840_maximum_building_height.py) | [Solution](solutions/1840_maximum_building_height.md) |
