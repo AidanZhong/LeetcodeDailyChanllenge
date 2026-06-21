@@ -38,3 +38,4 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | 1665 | Minimum Initial Energy to Finish Tasks | Hard | Greedy | [Code](code/1665_minimum_initial_energy_to_finish_tasks.py) | [Solution](solutions/1665_minimum_initial_energy_to_finish_tasks.md) |
 | 1840 | maximum building height | hard | math | [Code](code/1840_maximum_building_height.py) | [Solution](solutions/1840_maximum_building_height.md) |
 | 1833 | maximum ice-cream bars | medium | greedy | [Code](code/1833_maximum_ice-cream_bars.py) | [Solution](solutions/1833_maximum_ice-cream_bars.md) |
+| 1189 | Maximum number of balloons | easy | hash set | [Code](code/1189_maximum_number_of_balloons.py) | [Solution](solutions/1189_maximum_number_of_balloons.md) |
