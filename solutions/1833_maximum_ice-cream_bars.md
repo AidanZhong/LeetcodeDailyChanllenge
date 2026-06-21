@@ -5,12 +5,12 @@
 
 ## Approach
 
-
+Each time he buy, try buy the cheapest one. 
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(n log n) — sorting dominates; the greedy scan is O(n)
+- **Space:** O(1) — sort in-place, no extra structures
 
 ## Code
 
