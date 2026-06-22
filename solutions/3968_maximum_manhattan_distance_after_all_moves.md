@@ -12,8 +12,8 @@ the number of "_" move.
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(n) — single pass through the moves string
+- **Space:** O(1) — only a few variables regardless of input size
 
 ## Code
 
