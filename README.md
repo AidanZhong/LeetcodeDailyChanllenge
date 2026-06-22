@@ -29,12 +29,12 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 
 # Weekly contest 507
 
-| Problem Number | Problem | Difficulty | Topic  | Code | Solution |
-|----------------|---------|------------|--------|------|----------|
-| 3968 | Maximum Manhattan Distance After All Moves | Medium | simulation | [Code](code/3968_maximum_manhattan_distance_after_all_moves.py) | [Solution](solutions/3968_maximum_manhattan_distance_after_all_moves.md) || 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
-| 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
-| 3970 | Shortest Path With At Most K Consecutive Identical Characters | Medium | priority queue(heap) BFS | [Code](code/3970_shortest_path_with_at_most_k_consecutive_identical_characters.py) | [Solution](solutions/3970_shortest_path_with_at_most_k_consecutive_identical_characters.md) |
-| 3971 | Maximum Total Value | Hard | binary search | [Code](code/3971_maximum_total_value.py) | [Solution](solutions/3971_maximum_total_value.md) |
+| Problem Number | Problem | Difficulty | Topic  | Code | Solution |Difficulty score|
+|----------------|---------|------------|--------|------|----------|-|
+| 3968 | Maximum Manhattan Distance After All Moves | Medium | simulation | [Code](code/3968_maximum_manhattan_distance_after_all_moves.py) | [Solution](solutions/3968_maximum_manhattan_distance_after_all_moves.md) |4|
+| 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |4|
+| 3970 | Shortest Path With At Most K Consecutive Identical Characters | Medium | priority queue(heap) BFS | [Code](code/3970_shortest_path_with_at_most_k_consecutive_identical_characters.py) | [Solution](solutions/3970_shortest_path_with_at_most_k_consecutive_identical_characters.md) |5|
+| 3971 | Maximum Total Value | Hard | binary search | [Code](code/3971_maximum_total_value.py) | [Solution](solutions/3971_maximum_total_value.md) |6|
 
 
 # Table of Contents
