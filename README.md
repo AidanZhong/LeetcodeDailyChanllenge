@@ -37,20 +37,19 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 
 # Table of Contents
 
-| Problem Number | Problem | Difficulty | Topic  | Code | Solution |
-|----------------|---------|------------|--------|------|----------|
-| 1861           | Rotating the Box | Medium | Matrix | [Code](code/1861_rotating_the_box.py) | [Solution](solutions/1861_rotating_the_box.md) |
-| 3660           | Jump Game IX | Medium | DSU    | [Code](code/3660_jump_game_ix.py) | [Solution](solutions/3660_jump_game_ix.md) |
-| 3629 | Minimum Jumps to Reach End via Prime Teleportation | Medium | BFS, SPF | [Code](code/3629_minimum_jumps_to_reach_end_via_prime_teleportation.py) | [Solution](solutions/3629_minimum_jumps_to_reach_end_via_prime_teleportation.md) |
-| 1914 | Cyclically Rotating a Grid | Medium | Matrix | [Code](code/1914_cyclically_rotating_a_grid.py) | [Solution](solutions/1914_cyclically_rotating_a_grid.md) |
-| 2770 | Maximum Number of Jumps to Reach the Last Index | Medium | Dynamic Programming | [Code](code/2770_maximum_number_of_jumps_to_reach_the_last_index.py) | [Solution](solutions/2770_maximum_number_of_jumps_to_reach_the_last_index.md) |
-| 2553 | Seperate the Digits in an Array | Easy | Array | [Code](code/2553_seperate_the_digits_in_an_array.py) | [Solution](solutions/2553_seperate_the_digits_in_an_array.md) |
-| 1665 | Minimum Initial Energy to Finish Tasks | Hard | Greedy | [Code](code/1665_minimum_initial_energy_to_finish_tasks.py) | [Solution](solutions/1665_minimum_initial_energy_to_finish_tasks.md) |
-| 1840 | maximum building height | hard | math | [Code](code/1840_maximum_building_height.py) | [Solution](solutions/1840_maximum_building_height.md) |
-| 1833 | maximum ice-cream bars | medium | greedy | [Code](code/1833_maximum_ice-cream_bars.py) | [Solution](solutions/1833_maximum_ice-cream_bars.md) |
-| 1189 | Maximum number of balloons | easy | hash set | [Code](code/1189_maximum_number_of_balloons.py) | [Solution](solutions/1189_maximum_number_of_balloons.md) |
-| 3968 | Maximum Manhattan Distance After All Moves | Medium | simulation | [Code](code/3968_maximum_manhattan_distance_after_all_moves.py) | [Solution](solutions/3968_maximum_manhattan_distance_after_all_moves.md) |
-| 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
-
-
-| 3970 | Shortest Path With At Most K Consecutive Identical Characters | Medium | heap BFS | [Code](code/3970_shortest_path_with_at_most_k_consecutive_identical_characters.py) | [Solution](solutions/3970_shortest_path_with_at_most_k_consecutive_identical_characters.md) |
+| Problem Number | Problem | Difficulty | Topic                    | Code | Solution |
+|----------------|---------|------------|--------------------------|------|----------|
+| 1861           | Rotating the Box | Medium | Matrix                   | [Code](code/1861_rotating_the_box.py) | [Solution](solutions/1861_rotating_the_box.md) |
+| 3660           | Jump Game IX | Medium | DSU                      | [Code](code/3660_jump_game_ix.py) | [Solution](solutions/3660_jump_game_ix.md) |
+| 3629 | Minimum Jumps to Reach End via Prime Teleportation | Medium | BFS, SPF                 | [Code](code/3629_minimum_jumps_to_reach_end_via_prime_teleportation.py) | [Solution](solutions/3629_minimum_jumps_to_reach_end_via_prime_teleportation.md) |
+| 1914 | Cyclically Rotating a Grid | Medium | Matrix                   | [Code](code/1914_cyclically_rotating_a_grid.py) | [Solution](solutions/1914_cyclically_rotating_a_grid.md) |
+| 2770 | Maximum Number of Jumps to Reach the Last Index | Medium | Dynamic Programming      | [Code](code/2770_maximum_number_of_jumps_to_reach_the_last_index.py) | [Solution](solutions/2770_maximum_number_of_jumps_to_reach_the_last_index.md) |
+| 2553 | Seperate the Digits in an Array | Easy | Array                    | [Code](code/2553_seperate_the_digits_in_an_array.py) | [Solution](solutions/2553_seperate_the_digits_in_an_array.md) |
+| 1665 | Minimum Initial Energy to Finish Tasks | Hard | Greedy                   | [Code](code/1665_minimum_initial_energy_to_finish_tasks.py) | [Solution](solutions/1665_minimum_initial_energy_to_finish_tasks.md) |
+| 1840 | maximum building height | hard | math                     | [Code](code/1840_maximum_building_height.py) | [Solution](solutions/1840_maximum_building_height.md) |
+| 1833 | maximum ice-cream bars | medium | greedy                   | [Code](code/1833_maximum_ice-cream_bars.py) | [Solution](solutions/1833_maximum_ice-cream_bars.md) |
+| 1189 | Maximum number of balloons | easy | hash set                 | [Code](code/1189_maximum_number_of_balloons.py) | [Solution](solutions/1189_maximum_number_of_balloons.md) |
+| 3968 | Maximum Manhattan Distance After All Moves | Medium | simulation               | [Code](code/3968_maximum_manhattan_distance_after_all_moves.py) | [Solution](solutions/3968_maximum_manhattan_distance_after_all_moves.md) |
+| 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum                  | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
+| 3970 | Shortest Path With At Most K Consecutive Identical Characters | Medium | priority queue(heap) BFS | [Code](code/3970_shortest_path_with_at_most_k_consecutive_identical_characters.py) | [Solution](solutions/3970_shortest_path_with_at_most_k_consecutive_identical_characters.md) |
+| 3971 | Maximum Total Value | Hard | binary search | [Code](code/3971_maximum_total_value.py) | [Solution](solutions/3971_maximum_total_value.md) |
