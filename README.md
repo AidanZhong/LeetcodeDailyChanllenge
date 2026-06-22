@@ -41,6 +41,4 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | 1189 | Maximum number of balloons | easy | hash set | [Code](code/1189_maximum_number_of_balloons.py) | [Solution](solutions/1189_maximum_number_of_balloons.md) |
 | 3968 | Maximum Manhattan Distance After All Moves | Medium | simulation | [Code](code/3968_maximum_manhattan_distance_after_all_moves.py) | [Solution](solutions/3968_maximum_manhattan_distance_after_all_moves.md) |
 
-# Weekly contest 507
-| Problem Number | Problem | Difficulty | Topic  | Code | Solution |
-| 3968 | Maximum Manhattan Distance After All Moves | Medium | simulation | [Code](code/3968_maximum_manhattan_distance_after_all_moves.py) | [Solution](solutions/3968_maximum_manhattan_distance_after_all_moves.md) || 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
+| 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
