@@ -2,6 +2,8 @@
 
 This repo tracks daily LeetCode problem solutions with explanations.
 
+[toc]
+
 ## Scripts
 
 ### Add a new problem
@@ -25,7 +27,15 @@ python generate_post.py <problem_number>
 
 Generates a LinkedIn post from the solution file and saves it to `post_<problem_number>.txt`.
 
-## Table of Contents
+# Weekly contest 507
+
+| Problem Number | Problem | Difficulty | Topic  | Code | Solution |
+|----------------|---------|------------|--------|------|----------|
+| 3968 | Maximum Manhattan Distance After All Moves | Medium | simulation | [Code](code/3968_maximum_manhattan_distance_after_all_moves.py) | [Solution](solutions/3968_maximum_manhattan_distance_after_all_moves.md) || 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
+| 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
+
+
+# Table of Contents
 
 | Problem Number | Problem | Difficulty | Topic  | Code | Solution |
 |----------------|---------|------------|--------|------|----------|
@@ -40,5 +50,7 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | 1833 | maximum ice-cream bars | medium | greedy | [Code](code/1833_maximum_ice-cream_bars.py) | [Solution](solutions/1833_maximum_ice-cream_bars.md) |
 | 1189 | Maximum number of balloons | easy | hash set | [Code](code/1189_maximum_number_of_balloons.py) | [Solution](solutions/1189_maximum_number_of_balloons.md) |
 | 3968 | Maximum Manhattan Distance After All Moves | Medium | simulation | [Code](code/3968_maximum_manhattan_distance_after_all_moves.py) | [Solution](solutions/3968_maximum_manhattan_distance_after_all_moves.md) |
-
 | 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
+
+
+| 3970 | Shortest Path With At Most K Consecutive Identical Characters | Medium | heap BFS | [Code](code/3970_shortest_path_with_at_most_k_consecutive_identical_characters.py) | [Solution](solutions/3970_shortest_path_with_at_most_k_consecutive_identical_characters.md) |
