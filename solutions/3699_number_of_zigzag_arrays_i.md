@@ -13,7 +13,7 @@ For example, [4, 5, 4] with c = [+, -], [5, 4, 5] with c = [-, +]. We call this 
 
 Now the rule 2 becomes: for each i, c[i] != c[i+1]
 
-And of course, counting the sign patterns is easy. Its either starts with + or -, then alternating for each index.
+And of course, counting the sign patterns is easy. It's either starts with + or -, then alternating for each index.
 So how to count the number of actual arrays from sign sequence? We need DP(dynamic programming) to keep track of at each
 index, what value do we have.
 
@@ -27,7 +27,8 @@ Define:
 dp[i][v][s] as the number of valid zigzag arrays of length i + 1, ending with value v, and the last step is s(+, or -).
 
 Now let us consider the state change. For example, dp[5][7][+] = 123, to extend to position 6 from this state,
-dp[6][x][-] = dp[5][7][+] + ... (other states) (l <= x < 7) which means it is a one-to-one extension from one state.
+we can pick any x < 7, contributing dp[5][7][+] to dp[6][x][-]. More generally, dp[6][x][-] sums all dp[5][y][+]
+for y > x — every previous value greater than x can step down to x.
 
 Now generalize the state change to all possible states.
 
@@ -36,19 +37,23 @@ dp[i][x][-] = sum(dp[i-1][y][+]) (x < y <= r)
 dp[i][x][+] = sum(dp[i-1][y][-]) (l <= y < x)
 ```
 
-The last trick of the problem, is to calculate the sum is by brutal force is still gonna exceed the time limit.
-The solution is simply to use a prefix sum array. (We only need 1 pre_sum array for each index i tho, we don't need n 
-pre_sum arrays, we just need 1, since after index i is being calculated, the pre_sum array is no longer needed)
+The last trick of the problem: calculating the sum by brute force is still going to exceed the time limit.
+The solution is to use prefix sum arrays. We maintain two rolling arrays — one for the + direction and one for the -
+direction — where `pre_plus[k]` = sum of dp[i-1][x][+] for x in [l, l+k-1], and similarly for `pre_minus`. This
+allows each range sum to be computed in O(1) as a difference of two prefix values. We only need the previous step's
+two arrays (not all n layers), since once step i is computed, the step i-1 arrays are no longer needed.
 
-Before coding, we need to figure out the boundary of the dp states. dp[0][x][s] = 1 (since the first element is always
-legal and only one possible array)
+Before coding, we need to figure out the boundary of the dp states. dp[0][v][s] = 1 for all v in [l, r] and both
+directions s — the first element has no predecessor, so any value is valid and there is exactly 1 array of length 1
+ending at v. The direction s at i=0 is just a placeholder indicating which direction the next step must go.
 
-Finally, we need to return the sum of each final possible state.
+Finally, the answer is the sum of all dp[n-1][v][+] and dp[n-1][v][-] for v in [l, r], i.e., the total count of
+valid zigzag arrays regardless of which direction the last step was.
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(n × (r - l)), two prefix sum arrays of size r-l+2 are rebuilt each of the n steps
+- **Space:** O(r - l), only the two rolling prefix sum arrays are kept at any time
 
 ## Code
 

@@ -32,6 +32,11 @@ There are only 2 valid ZigZag arrays of length n = 3 using values in the range [
 
 [4, 5, 4]
 [5, 4, 5]
+
+Constraints:
+
+3 <= n <= 2000
+1 <= l < r <= 2000
 '''
 
 
