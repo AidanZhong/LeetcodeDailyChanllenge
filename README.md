@@ -55,3 +55,4 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | 3969 | Valid Subarrays With Matching Sum Digits I | medium | pre sum                  | [Code](code/3969_valid_subarrays_with_matching_sum_digits_i.py) | [Solution](solutions/3969_valid_subarrays_with_matching_sum_digits_i.md) |
 | 3970 | Shortest Path With At Most K Consecutive Identical Characters | Medium | priority queue(heap) BFS | [Code](code/3970_shortest_path_with_at_most_k_consecutive_identical_characters.py) | [Solution](solutions/3970_shortest_path_with_at_most_k_consecutive_identical_characters.md) |
 | 3971 | Maximum Total Value | Hard | binary search | [Code](code/3971_maximum_total_value.py) | [Solution](solutions/3971_maximum_total_value.md) |
+| 3699 | Number of ZigZag Arrays I | Hard | Dynamic programming | [Code](code/3699_number_of_zigzag_arrays_i.py) | [Solution](solutions/3699_number_of_zigzag_arrays_i.md) |
