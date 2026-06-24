@@ -36,7 +36,7 @@ where `V_i` is the state vector of size `2m` ordered as `[+1, +2, ..., +m, -1, -
 
 `M` splits into four `m×m` blocks. The top-left (`+`→`+`) and bottom-right (`-`→`-`) blocks are all zero — directions never reinforce themselves directly. Only the off-diagonal blocks are nonzero:
 
-$$M = \begin{pmatrix} 0 & L \\ U & 0 \end{pmatrix}$$
+$$M = \begin{pmatrix} 0 & L \\\\ U & 0 \end{pmatrix}$$
 
 - `L[x][y] = 1` if `y < x`, else `0` — **strictly lower-triangular** matrix of 1s. Encodes `dp[i][x][+] = sum of dp[i-1][y][-]` for `y < x`.
 - `U[x][y] = 1` if `y > x`, else `0` — **strictly upper-triangular** matrix of 1s. Encodes `dp[i][x][-] = sum of dp[i-1][y][+]` for `y > x`.
@@ -45,11 +45,11 @@ Note `U = Lᵗ` (transpose) — a consequence of the symmetric "less than / grea
 
 **Example, m=4:**
 
-$$L = \begin{pmatrix} 0&0&0&0\\ 1&0&0&0\\ 1&1&0&0\\ 1&1&1&0 \end{pmatrix} \qquad U = \begin{pmatrix} 0&1&1&1\\ 0&0&1&1\\ 0&0&0&1\\ 0&0&0&0 \end{pmatrix}$$
+$$L = \begin{pmatrix} 0&0&0&0\\\\ 1&0&0&0\\\\ 1&1&0&0\\\\ 1&1&1&0 \end{pmatrix} \qquad U = \begin{pmatrix} 0&1&1&1\\\\ 0&0&1&1\\\\ 0&0&0&1\\\\ 0&0&0&0 \end{pmatrix}$$
 
 **Example, m=5:**
 
-$$L = \begin{pmatrix} 0&0&0&0&0\\ 1&0&0&0&0\\ 1&1&0&0&0\\ 1&1&1&0&0\\ 1&1&1&1&0 \end{pmatrix} \qquad U = \begin{pmatrix} 0&1&1&1&1\\ 0&0&1&1&1\\ 0&0&0&1&1\\ 0&0&0&0&1\\ 0&0&0&0&0 \end{pmatrix}$$
+$$L = \begin{pmatrix} 0&0&0&0&0\\\\ 1&0&0&0&0\\\\ 1&1&0&0&0\\\\ 1&1&1&0&0\\\\ 1&1&1&1&0 \end{pmatrix} \qquad U = \begin{pmatrix} 0&1&1&1&1\\\\ 0&0&1&1&1\\\\ 0&0&0&1&1\\\\ 0&0&0&0&1\\\\ 0&0&0&0&0 \end{pmatrix}$$
 
 Readers can try to verify these matrix multiply by themselves.
 
