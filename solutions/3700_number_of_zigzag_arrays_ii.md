@@ -61,8 +61,10 @@ And the final answer will be the sum of all values in $V_{n-1}$
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+Let m = r - l + 1 (at most 75), so the matrix is (2m)×(2m).
+
+- **Time:** O(m³ log n) — each matrix multiplication is O((2m)³) = O(m³), repeated O(log n) times during fast exponentiation.
+- **Space:** O(m²) — storing the (2m)×(2m) matrix.
 
 ## Code
 
