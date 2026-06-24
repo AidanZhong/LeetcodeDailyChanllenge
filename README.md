@@ -57,3 +57,5 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | 3971 | Maximum Total Value | Hard | binary search | [Code](code/3971_maximum_total_value.py) | [Solution](solutions/3971_maximum_total_value.md) |
 | 3699 | Number of ZigZag Arrays I | Hard | Dynamic programming | [Code](code/3699_number_of_zigzag_arrays_i.py) | [Solution](solutions/3699_number_of_zigzag_arrays_i.md) |
 | 3700 | Number of ZigZag Arrays II | Hard | Dynamic programming | [Code](code/3700_number_of_zigzag_arrays_ii.py) | [Solution](solutions/3700_number_of_zigzag_arrays_ii.md) |
+| 3698 | Split Array With Minimum Difference
+ | Medium | array | [Code](code/3698_split_array_with_minimum_difference.py) | [Solution](solutions/3698_split_array_with_minimum_difference.md) |
