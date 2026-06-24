@@ -5,12 +5,12 @@
 
 ## Approach
 
-This is actually the same as problem 3699. Only the input constraints are different. The n now is 10^9, which means the
+This is actually the same as problem [3699](3699_number_of_zigzag_arrays_i.md). Only the input constraints are different. The n now is 10^9, which means the
 previous solution is not feasible. O(n*(r - l)) is obviously not feasible.
 
 But this time the l and r sits in a much smaller range, 1 <= l < r <= 75. Define m = r - l + 1
 
-Same definition dp as in 3699. 
+Same definition dp as in [3699](3699_number_of_zigzag_arrays_i.md). 
 dp[i][v][s] as the number of valid zigzag arrays of length i + 1, ending with value v, and the last step is s(+, or -).
 
 Let us observe the transition function:
