@@ -27,6 +27,16 @@ python generate_post.py <problem_number>
 
 Generates a LinkedIn post from the solution file and saves it to `post_<problem_number>.txt`.
 
+# Weekly contest 469
+
+| Problem Number | Problem | Difficulty | Topic  | Code | Solution |Difficulty score|
+|----------------|---------|------------|--------|------|----------|-|
+| 3697           | Compute Decimal Representation | Easy | Math | [Code](code/3697_compute_decimal_representation.py) | [Solution](solutions/3697_compute_decimal_representation.md) |3|
+| 3698 | Split Array With Minimum Difference
+ | Medium | array | [Code](code/3698_split_array_with_minimum_difference.py) | [Solution](solutions/3698_split_array_with_minimum_difference.md) |4|
+| 3699 | Number of ZigZag Arrays I | Hard | Dynamic programming | [Code](code/3699_number_of_zigzag_arrays_i.py) | [Solution](solutions/3699_number_of_zigzag_arrays_i.md) |6|
+| 3700 | Number of ZigZag Arrays II | Hard | Dynamic programming | [Code](code/3700_number_of_zigzag_arrays_ii.py) | [Solution](solutions/3700_number_of_zigzag_arrays_ii.md) |8|
+
 # Weekly contest 507
 
 | Problem Number | Problem | Difficulty | Topic  | Code | Solution |Difficulty score|
