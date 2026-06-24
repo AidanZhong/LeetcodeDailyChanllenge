@@ -38,8 +38,35 @@ Constraints:
 3 <= n <= 10^9
 1 <= l < r <= 75
 '''
+import numpy as np
+
+
+def matrix_power(M, n, mod):
+    size = M.shape[0]
+    result = np.eye(size, dtype=object)
+    base = M.copy()
+    while n > 0:
+        if n & 1:
+            result = result @ base % mod
+        base = base @ base % mod
+        n >>= 1
+    return result
+
 
 class Solution:
-    def solve(self):
-        # TODO: implement solution
-        pass
+    def zigZagArrays(self, n: int, l: int, r: int) -> int:
+        MOD = 10 ** 9 + 7
+        # constructing matrix M
+        m = r - l + 1
+        L = np.tril(np.ones((m, m), dtype=object), k=-1)  # lower triangle without diagonal
+        U = np.triu(np.ones((m, m), dtype=object), k=1)  # upper triangle without diagonal
+        zero = np.zeros((m, m), dtype=object)
+        M = np.block([[zero, L],
+                      [U, zero]])
+        V_0 = np.ones((2 * m, 1), dtype=object)
+        M_n = matrix_power(M, n - 1, MOD)
+        V_n = M_n @ V_0 % MOD
+        return int(np.sum(V_n)) % MOD
+
+
+print(Solution().zigZagArrays(3, 4, 5))
