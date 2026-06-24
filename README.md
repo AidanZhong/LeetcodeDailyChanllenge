@@ -32,8 +32,7 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | Problem Number | Problem | Difficulty | Topic  | Code | Solution |Difficulty score|
 |----------------|---------|------------|--------|------|----------|-|
 | 3697           | Compute Decimal Representation | Easy | Math | [Code](code/3697_compute_decimal_representation.py) | [Solution](solutions/3697_compute_decimal_representation.md) |3|
-| 3698 | Split Array With Minimum Difference
- | Medium | array | [Code](code/3698_split_array_with_minimum_difference.py) | [Solution](solutions/3698_split_array_with_minimum_difference.md) |4|
+| 3698 | Split Array With Minimum Difference| Medium | array | [Code](code/3698_split_array_with_minimum_difference.py) | [Solution](solutions/3698_split_array_with_minimum_difference.md) |4|
 | 3699 | Number of ZigZag Arrays I | Hard | Dynamic programming | [Code](code/3699_number_of_zigzag_arrays_i.py) | [Solution](solutions/3699_number_of_zigzag_arrays_i.md) |6|
 | 3700 | Number of ZigZag Arrays II | Hard | Dynamic programming | [Code](code/3700_number_of_zigzag_arrays_ii.py) | [Solution](solutions/3700_number_of_zigzag_arrays_ii.md) |8|
 
@@ -68,6 +67,5 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | 3699 | Number of ZigZag Arrays I | Hard | Dynamic programming | [Code](code/3699_number_of_zigzag_arrays_i.py) | [Solution](solutions/3699_number_of_zigzag_arrays_i.md) |
 | 3700 | Number of ZigZag Arrays II | Hard | Dynamic programming | [Code](code/3700_number_of_zigzag_arrays_ii.py) | [Solution](solutions/3700_number_of_zigzag_arrays_ii.md) |
 | 3737 | Count Subarrays With Majority Element I | Medium | prefix sum | [Code](code/3737_count_subarrays_with_majority_element_i.py) | [Solution](solutions/3737_count_subarrays_with_majority_element_i.md) |
-| 3698 | Split Array With Minimum Difference
- | Medium | array | [Code](code/3698_split_array_with_minimum_difference.py) | [Solution](solutions/3698_split_array_with_minimum_difference.md) |
+| 3698 | Split Array With Minimum Difference| Medium | array | [Code](code/3698_split_array_with_minimum_difference.py) | [Solution](solutions/3698_split_array_with_minimum_difference.md) |
 | 3697 | Compute Decimal Representation | Easy | Math | [Code](code/3697_compute_decimal_representation.py) | [Solution](solutions/3697_compute_decimal_representation.md) |
