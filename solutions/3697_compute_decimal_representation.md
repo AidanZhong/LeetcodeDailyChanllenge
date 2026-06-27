@@ -3,6 +3,8 @@
 - **Difficulty:** Easy
 - **Topic:** Math
 
+[LeetCode](https://leetcode.com/problems/compute-decimal-representation/)
+
 ## Approach
 
 A base-10 component is simply a non-zero digit scaled by its place value. Looking at the decimal representation of n, each non-zero digit at position k (from the right, 0-indexed) gives exactly one component: digit × 10^k. Zeros contribute nothing since 0 × 10^k = 0.

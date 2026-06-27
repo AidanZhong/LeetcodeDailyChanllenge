@@ -3,6 +3,8 @@
 - **Difficulty:** Hard
 - **Topic:** binary search
 
+[LeetCode](https://leetcode.com/problems/maximum-total-value/)
+
 ## Approach
 
 First instinct of this is using a priority queue(heap). Keep getting the maximum value from the heap and decay it and

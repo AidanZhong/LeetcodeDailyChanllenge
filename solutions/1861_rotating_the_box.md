@@ -3,6 +3,8 @@
 - **Difficulty:** Medium
 - **Topic:** Matrix
 
+[LeetCode](https://leetcode.com/problems/rotating-the-box/)
+
 ## Approach
 
 Since the box is rotated 90° clockwise, gravity effectively pulls stones to the right in the original grid. We can simulate this before performing the rotation.

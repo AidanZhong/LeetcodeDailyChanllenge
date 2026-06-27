@@ -3,6 +3,8 @@
 - **Difficulty:** Hard
 - **Topic:** Dynamic programming
 
+[LeetCode](https://leetcode.com/problems/number-of-zigzag-arrays-i/)
+
 ## Approach
 
 Firstly, we need to understand the "ZigZag". No two adjacent elements are equal.

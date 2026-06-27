@@ -3,6 +3,8 @@
 - **Difficulty:** Medium
 - **Topic:** DSU
 
+[LeetCode](https://leetcode.com/problems/jump-game-ix/)
+
 ## Approach
 
 The jump rules are symmetric: from `i` you can jump forward to `j > i` if `nums[j] < nums[i]`, and from `j` you can jump backward to `i` if `nums[i] > nums[j]` — the same condition. So the graph is **undirected**, and the answer for each index is the maximum value in its connected component.

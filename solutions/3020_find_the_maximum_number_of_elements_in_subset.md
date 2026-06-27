@@ -3,6 +3,8 @@
 - **Difficulty:** Medium
 - **Topic:** Hash set
 
+[LeetCode](https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/)
+
 ## Approach
 
 Record the number of appearance of each element into a dictionary(Hash set).

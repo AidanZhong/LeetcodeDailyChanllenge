@@ -3,6 +3,8 @@
 - **Difficulty:** easy
 - **Topic:** hash set
 
+[LeetCode](https://leetcode.com/problems/maximum-number-of-balloons/)
+
 ## Approach
 
 count the number of each character in the string. A balloon is 1 'a', 1 'b', 2 'l', 2 'o' and 1 'n'.

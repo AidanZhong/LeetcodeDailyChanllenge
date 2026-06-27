@@ -3,6 +3,8 @@
 - **Difficulty:** medium
 - **Topic:** pre sum
 
+[LeetCode](https://leetcode.com/problems/valid-subarrays-with-matching-sum-digits-i/)
+
 ## Approach
 
 Use `preSum` to fast calculate the sum of any consecutive subarray. And check the first and last digit of the sum.

@@ -3,6 +3,8 @@
 - **Difficulty:** Medium
 - **Topic:** BFS, SPF
 
+[LeetCode](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/)
+
 ## Approach
 
 The problem is a graph traversal problem. Each index of array is a node. You start from the first index to move to the

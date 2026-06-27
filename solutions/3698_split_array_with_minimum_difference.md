@@ -4,6 +4,8 @@
 - **Difficulty:** Medium
 - **Topic:** array
 
+[LeetCode](https://leetcode.com/problems/split-array-with-minimum-difference/)
+
 ## Approach
 
 For a split at index i (left = nums[0..i], right = nums[i+1..n-1]) to be valid, left must be strictly increasing and right must be strictly decreasing. This forces the array to be a "mountain": non-stop increasing up to some peak, then non-stop decreasing.

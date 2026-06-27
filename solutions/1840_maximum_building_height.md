@@ -3,6 +3,8 @@
 - **Difficulty:** Hard
 - **Topic:** Math
 
+[LeetCode](https://leetcode.com/problems/maximum-building-height/)
+
 ## Approach
 
 Treat building 1 (height 0) and building n (max height n-1) as restrictions as well, so every segment between buildings is bounded on both sides.

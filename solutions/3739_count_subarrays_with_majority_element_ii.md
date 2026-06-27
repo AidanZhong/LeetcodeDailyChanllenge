@@ -3,6 +3,8 @@
 - **Difficulty:** Hard
 - **Topic:** prefix sum
 
+[LeetCode](https://leetcode.com/problems/count-subarrays-with-majority-element-ii/)
+
 ## Approach
 
 Since we only care about the values in the array where it is equals to "target".

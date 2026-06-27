@@ -3,6 +3,8 @@
 - **Difficulty:** medium
 - **Topic:** greedy
 
+[LeetCode](https://leetcode.com/problems/maximum-ice-cream-bars/)
+
 ## Approach
 
 Each time he buy, try buy the cheapest one. 

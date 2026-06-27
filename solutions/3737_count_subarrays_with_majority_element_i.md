@@ -3,6 +3,8 @@
 - **Difficulty:** Medium
 - **Topic:** prefix sum
 
+[LeetCode](https://leetcode.com/problems/count-subarrays-with-majority-element-i/)
+
 ## Approach
 
 According to the problem statement, for each element, we only care if it is the target element or not.

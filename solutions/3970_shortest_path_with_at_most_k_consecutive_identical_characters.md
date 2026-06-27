@@ -3,6 +3,8 @@
 - **Difficulty:** Medium
 - **Topic:** heap BFS
 
+[LeetCode](https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/)
+
 ## Approach
 
 If there is no requirement like at most k consecutive identical characters, this is a classic shortest path problem.

@@ -3,6 +3,8 @@
 - **Difficulty:** Medium
 - **Topic:** simulation
 
+[LeetCode](https://leetcode.com/problems/maximum-manhattan-distance-after-all-moves/)
+
 ## Approach
 
 No matter how you moved, the "_" move can only increase the Manhattan distance by 1 and can always be done.
