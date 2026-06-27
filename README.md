@@ -70,3 +70,4 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | 3698 | Split Array With Minimum Difference| Medium | array | [Code](code/3698_split_array_with_minimum_difference.py) | [Solution](solutions/3698_split_array_with_minimum_difference.md) |
 | 3697 | Compute Decimal Representation | Easy | Math | [Code](code/3697_compute_decimal_representation.py) | [Solution](solutions/3697_compute_decimal_representation.md) |
 | 3739 | Count Subarrays With Majority Element II | Hard | prefix sum | [Code](code/3739_count_subarrays_with_majority_element_ii.py) | [Solution](solutions/3739_count_subarrays_with_majority_element_ii.md) |
+| 3020 | Find the Maximum Number of Elements in Subset | Medium | Hash set | [Code](code/3020_find_the_maximum_number_of_elements_in_subset.py) | [Solution](solutions/3020_find_the_maximum_number_of_elements_in_subset.md) |
