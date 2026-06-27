@@ -27,13 +27,21 @@ class Solution:
     return path
 
 
+def to_lc_slug(name):
+    return re.sub(r'\s+', '-', name.strip().lower())
+
+
 def create_solution_file(problem_num, snake_name, problem_name, topic, difficulty):
     os.makedirs("solutions", exist_ok=True)
     path = f"solutions/{problem_num}_{snake_name}.md"
+    slug = to_lc_slug(problem_name)
+    lc_url = f"https://leetcode.com/problems/{slug}/"
     content = f"""# {problem_num}. {problem_name}
 
 - **Difficulty:** {difficulty}
 - **Topic:** {topic}
+
+[LeetCode]({lc_url})
 
 ## Approach
 
@@ -50,11 +58,11 @@ def create_solution_file(problem_num, snake_name, problem_name, topic, difficult
 """
     with open(path, "w") as f:
         f.write(content)
-    return path
+    return path, lc_url
 
 
-def append_readme_row(problem_num, problem_name, difficulty, topic, code_path, solution_path):
-    row = f"| {problem_num} | {problem_name} | {difficulty} | {topic} | [Code]({code_path}) | [Solution]({solution_path}) |\n"
+def append_readme_row(problem_num, problem_name, difficulty, topic, code_path, solution_path, lc_url):
+    row = f"| {problem_num} | {problem_name} | {difficulty} | {topic} | [Code]({code_path}) | [Solution]({solution_path}) | [Link]({lc_url}) |\n"
     with open("README.md", "a") as f:
         f.write(row)
 
@@ -71,8 +79,8 @@ if __name__ == "__main__":
     snake_name = to_snake_case(problem_name)
 
     code_path = create_code_file(problem_num, snake_name, problem_name, topic, difficulty)
-    solution_path = create_solution_file(problem_num, snake_name, problem_name, topic, difficulty)
-    append_readme_row(problem_num, problem_name, difficulty, topic, code_path, solution_path)
+    solution_path, lc_url = create_solution_file(problem_num, snake_name, problem_name, topic, difficulty)
+    append_readme_row(problem_num, problem_name, difficulty, topic, code_path, solution_path, lc_url)
 
     print(f"Created {code_path}")
     print(f"Created {solution_path}")
