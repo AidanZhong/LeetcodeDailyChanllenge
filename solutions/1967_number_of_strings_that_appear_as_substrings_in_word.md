@@ -7,12 +7,12 @@
 
 ## Approach
 
-
+Just do what the question asks.
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(n)
+- **Space:** O(1)
 
 ## Code
 
