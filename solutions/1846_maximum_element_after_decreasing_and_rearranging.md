@@ -7,12 +7,13 @@
 
 ## Approach
 
-
+Sort the array first, then try to add one while traverse the array. Only add one if the current element is greater than
+the previous element. Return the last element.
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(nlogn)
+- **Space:** O(1)
 
 ## Code
 
