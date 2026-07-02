@@ -7,7 +7,8 @@
 
 ## Approach
 
-
+Use BFS with recording current health to try to find a path. In case some of the node could be visited first with lower
+health. We are going to use heap(priority queue) to keep poping the highest health possible path.
 
 ## Complexity
 
