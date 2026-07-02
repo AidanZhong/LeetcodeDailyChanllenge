@@ -12,8 +12,8 @@ health. We are going to use heap(priority queue) to keep poping the highest heal
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(mn)
+- **Space:** O(mn)
 
 ## Code
 
