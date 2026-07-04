@@ -28,7 +28,7 @@ $$n(i, j) = n(x_1, y_1) + n(x_2, y_2) + n(x_3, y_3)$$
 
 Now let us consider the borders.
 
-$$ dp(0, 0) = 1, 0 $$
+$$ dp(0, 0) = 0, 1 $$
 $$ dp(i, j) = 0, 0 (board[i][j] == 'X') $$
 
 
