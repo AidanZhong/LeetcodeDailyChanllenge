@@ -9,7 +9,7 @@
 
 Since we can only move towards up, left or up-left. So we cannot go back to each cell. Which means we could use dynamic programming to record any status of a cell.
 
-Define $dp(i, j)$ is the largest score of the path and the number of cell on $i$th row, $j$th col. It will return a tuple with max score call it $s(i, j)$ and the number of path call it $n(i, j)$. $dp(i, j)$ is determined by the cell next to it which is reachable. i.e. $dp(i+1, j), dp(i, j+1), dp(i+1, j+1)$. We call it set $dp\_next$. And we call the one with largest score $dp(x, y)$.
+Define $dp(i, j)$ is the largest score of the path and the number of cell on $i$ th row, $j$ th col. It will return a tuple with max score call it $s(i, j)$ and the number of path call it $n(i, j)$. $dp(i, j)$ is determined by the cell next to it which is reachable. i.e. $dp(i+1, j), dp(i, j+1), dp(i+1, j+1)$. We call it set $dp\_next$. And we call the one with largest score $dp(x, y)$.
 
 If one of them got larger score than other two, It means we could only go that way to get maximum score.
 
