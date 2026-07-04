@@ -22,10 +22,12 @@ $$s(i, j) = s(x_1, y_1) + score(i, j)$$
 $$n(i, j) = n(x_1, y_1) + n(x_2, y_2)$$
 
 If three of them are the same. It means we could go either of them.
+
 $$s(i, j) = s(x_1, y_1) + score(i, j)$$
 $$n(i, j) = n(x_1, y_1) + n(x_2, y_2) + n(x_3, y_3)$$
 
 Now let us consider the borders.
+
 $$ dp(0, 0) = 1, 0 $$
 $$ dp(i, j) = 0, 0 (board[i][j] == 'X') $$
 
