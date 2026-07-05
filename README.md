@@ -27,6 +27,15 @@ python generate_post.py <problem_number>
 
 Generates a LinkedIn post from the solution file and saves it to `post_<problem_number>.txt`.
 
+# Weekly contest 0 (Warmup)
+
+| Problem Number | Problem | Difficulty | Topic  | Code | Solution | Difficulty score                                                    | LeetCode                                                                  |
+|----------------|---------|------------|--------|------|----------|---------------------------------------------------------------------|---------------------------------------------------------------------------|
+| 386 | Lexicographical Numbers | Medium | DFS | [Code](code/386_lexicographical_numbers.py) | [Solution](solutions/386_lexicographical_numbers.md) | 1                                                                   | [Link](https://leetcode.com/problems/lexicographical-numbers/)            |
+| 387 | First Unique Character in a String | Easy | Hashset | [Code](code/387_first_unique_character_in_a_string.py) | [Solution](solutions/387_first_unique_character_in_a_string.md) | 1                                                                   | [Link](https://leetcode.com/problems/first-unique-character-in-a-string/) |
+| 388 | Longest Absolute File Path | Medium | DFS | [Code](code/388_longest_absolute_file_path.py) | [Solution](solutions/388_longest_absolute_file_path.md) | 1|  [Link](https://leetcode.com/problems/longest-absolute-file-path/)        |
+
+
 # Weekly contest 469
 
 | Problem Number | Problem | Difficulty | Topic  | Code | Solution |Difficulty score| LeetCode |
