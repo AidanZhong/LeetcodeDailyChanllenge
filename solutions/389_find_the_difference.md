@@ -7,12 +7,13 @@
 
 ## Approach
 
-
+Use a hash set to store the number of appearances of each character in s, then subtract the number of appearances of
+each character in t. The character left with value -1 is the answer.
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(n)
+- **Space:** O(1)
 
 ## Code
 
