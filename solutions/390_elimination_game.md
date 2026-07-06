@@ -1,4 +1,4 @@
-# 389. Elimination Game
+# 390. Elimination Game
 
 - **Difficulty:** Medium
 - **Topic:** Math
@@ -16,4 +16,4 @@
 
 ## Code
 
-[View solution](../code/389_elimination_game.py)
+[View solution](../code/390_elimination_game.py)
