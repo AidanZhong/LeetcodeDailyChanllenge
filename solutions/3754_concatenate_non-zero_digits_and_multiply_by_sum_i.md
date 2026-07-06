@@ -7,12 +7,12 @@
 
 ## Approach
 
-
+Convert it into string, record all the non-zero digits, and multiply by the sum of the digits.
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(d) where `d` is the length of string of the digits.
+- **Space:** O(d)
 
 ## Code
 
