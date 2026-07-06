@@ -95,3 +95,4 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | 388 | Longest Absolute File Path | Medium | DFS | [Code](code/388_longest_absolute_file_path.py) | [Solution](solutions/388_longest_absolute_file_path.md) | [Link](https://leetcode.com/problems/longest-absolute-file-path/) |
 | 1288 | Remove Covered Intervals | Medium | Sorting, Array | [Code](code/1288_remove_covered_intervals.py) | [Solution](solutions/1288_remove_covered_intervals.md) | [Link](https://leetcode.com/problems/remove-covered-intervals/) |
 | 389 | Find the Difference | Easy | Hash set | [Code](code/389_find_the_difference.py) | [Solution](solutions/389_find_the_difference.md) | [Link](https://leetcode.com/problems/find-the-difference/) |
+| 389 | Elimination Game | Medium | Math | [Code](code/389_elimination_game.py) | [Solution](solutions/389_elimination_game.md) | [Link](https://leetcode.com/problems/elimination-game/) |
