@@ -7,12 +7,23 @@
 
 ## Approach
 
+Since
+
+```
+odd sum = (1 + 1 + (n-1)×2) × n / 2
+        = n²
+
+even sum = n² + n
+         = n(n+1)
+```
+
+So, the GCD is $n$
 
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(1)
+- **Space:** O(1)
 
 ## Code
 

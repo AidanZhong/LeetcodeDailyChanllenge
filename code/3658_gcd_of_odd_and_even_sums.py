@@ -4,6 +4,7 @@
 
 
 class Solution:
-    def solve(self):
-        # TODO: implement solution
-        pass
+    def gcdOfOddEvenSums(self, n: int) -> int:
+        return n
+
+
