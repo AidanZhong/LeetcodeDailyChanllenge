@@ -1,6 +1,7 @@
 # LeetCode Daily Solutions
 
 This repo tracks daily LeetCode problem solutions with explanations.
+(Maybe I will try to work on a visualization of the problems and solutions in the future.)
 
 [toc]
 
