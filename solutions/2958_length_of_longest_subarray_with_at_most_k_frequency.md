@@ -7,7 +7,11 @@
 
 ## Approach
 
+Build a sliding window and maintain a frequency dictionary (Hash set). Whenever expanding,
+check if the frequency of the last element is greater than k.
 
+If it is, then shrink the window from the left until the frequency of the last element is less than or equal to k.
+If it is not, update the maximum length of the window.
 
 ## Complexity
 
