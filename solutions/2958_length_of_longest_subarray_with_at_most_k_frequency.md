@@ -15,8 +15,8 @@ If it is not, update the maximum length of the window.
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(n) — both window pointers only move forward, so each element is added and removed at most once.
+- **Space:** O(n) — the frequency dictionary holds at most one entry per distinct value.
 
 ## Code
 

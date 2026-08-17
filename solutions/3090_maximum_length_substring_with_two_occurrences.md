@@ -7,12 +7,19 @@
 
 ## Approach
 
+Keep a sliding window `[l, r]` and a frequency dictionary of the characters inside it.
 
+Expand the window by one character at a time. After adding `s[r]`, the only character that can break the
+rule is `s[r]` itself, so while its count is greater than 2, shrink the window from the left (dropping
+`s[l]` from the dictionary) until the window is valid again. Every time the window is valid, update the
+answer with `r - l + 1`.
+
+Since `l` only ever moves forward, each character enters and leaves the window at most once.
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(n) — each of `l` and `r` walks the string once.
+- **Space:** O(1) — the frequency dictionary holds at most 26 lowercase letters.
 
 ## Code
 
