@@ -7,7 +7,9 @@
 
 ## Approach
 
-
+$$
+n_0 - n_1 = \frac{9}{2}(q_1 - q_0). \tag{1}
+$$
 
 ## Complexity
 
