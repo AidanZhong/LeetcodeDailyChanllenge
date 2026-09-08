@@ -130,3 +130,4 @@ Generates a LinkedIn post from the solution file and saves it to `post_<problem_
 | 3903 | Smallest Stable Index I | Easy | Array | [Code](code/3903_smallest_stable_index_i.py) | [Solution](solutions/3903_smallest_stable_index_i.md) | [Link](https://leetcode.com/problems/smallest-stable-index-i/) |
 | 3904 | Smallest Stable Index II | Medium | Array | [Code](code/3904_smallest_stable_index_ii.py) | [Solution](solutions/3904_smallest_stable_index_ii.md) | [Link](https://leetcode.com/problems/smallest-stable-index-ii/) |
 | 940 | Distinct Subsequences II | Hard | Dynamic programming | [Code](code/940_distinct_subsequences_ii.py) | [Solution](solutions/940_distinct_subsequences_ii.md) | [Link](https://leetcode.com/problems/distinct-subsequences-ii/) |
+| 3870 | Count Commas in Range | Easy | Math | [Code](code/3870_count_commas_in_range.py) | [Solution](solutions/3870_count_commas_in_range.md) | [Link](https://leetcode.com/problems/count-commas-in-range/) |
