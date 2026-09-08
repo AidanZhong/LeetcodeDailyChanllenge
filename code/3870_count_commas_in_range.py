@@ -4,6 +4,12 @@
 
 
 class Solution:
-    def solve(self):
-        # TODO: implement solution
-        pass
+    def countCommas(self, n: int) -> int:
+        count = 0
+        multiplier = 1
+        while n >= 1000:
+            left = n - 999
+            count += multiplier * left
+            n //= 1000
+            multiplier += 1
+        return count
