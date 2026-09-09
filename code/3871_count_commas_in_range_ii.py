@@ -4,6 +4,10 @@
 
 
 class Solution:
-    def solve(self):
-        # TODO: implement solution
-        pass
+    def countCommas(self, n: int) -> int:
+        count = 0
+        power = 1000
+        while power <= n:
+            count += n - power + 1
+            power *= 1000
+        return count
