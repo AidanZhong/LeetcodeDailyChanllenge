@@ -13,8 +13,8 @@ balloon". The answer is the minimum of all the divisions.
 
 ## Complexity
 
-- **Time:**
-- **Space:**
+- **Time:** O(n) — one pass over the text to count the characters.
+- **Space:** O(1) — the counter only ever stores the 5 characters of "balloon".
 
 ## Code
 
