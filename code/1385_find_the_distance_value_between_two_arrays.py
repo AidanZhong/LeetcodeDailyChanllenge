@@ -4,6 +4,12 @@
 
 
 class Solution:
-    def solve(self):
-        # TODO: implement solution
-        pass
+    def findTheDistanceValue(self, arr1: list[int], arr2: list[int], d: int) -> int:
+        count = 0
+        for i in arr1:
+            for j in arr2:
+                if abs(i - j) <= d:
+                    break
+            else:
+                count += 1
+        return count
